@@ -3,7 +3,7 @@ if (file(vintecdyne_root_script+"/root.gradle").exists()){
 	apply from: file(vintecdyne_root_script+"/root.gradle")
 }
 
-group = "com.vintecdyne"
+group = "com.vintecdyne.libs"
 version = '1.0'
 
 dependencies{
