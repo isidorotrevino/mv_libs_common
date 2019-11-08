@@ -1,18 +1,31 @@
-if (file(vintecdyne_root_script+"/root.gradle").exists()){
-	println "- Aplicando configuración root"
-	apply from: file(vintecdyne_root_script+"/root.gradle")
+plugins{
+	id 'com.vintecdyne.plugins.vintecdyne-gradle-java-base' version '0.1-SNAPSHOT'
 }
 
 group = "com.vintecdyne.libs"
-version = '1.0'
+version = '1.0-SNAPSHOT'
 
-dependencies{
+mvCompile{
 
-	// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
-	compile group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
-	
-	// https://mvnrepository.com/artifact/com.google.code.findbugs/jsr305
-	compile group: 'com.google.code.findbugs', name: 'jsr305', version: jsr305Version
-	
-	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+}
+config {
+	info {
+		name        = 'Vintedyne Java Base'
+		vendor      = 'VintecDyne'
+		description = 'Arquitectura Vintecdyne'
+		tags 		= ['vintecdyne']
+		organization{
+			name = 'Vintecdyne'
+			url = ''
+		}
+		links {
+			website      = 'https://github.com/isidorotrevino/mv_libs_common'
+			issueTracker = 'https://github.com/isidorotrevino/mv_libs_common/issues'
+			scm          = 'https://github.com/isidorotrevino/mv_libs_common.git'
+		}
+		
+	}
+	licensing {
+		enabled = false
+	}
 }

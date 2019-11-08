@@ -1,3 +1,14 @@
-rootProject.name = "mv_libs_common"
+pluginManagement {
+	repositories {
+		maven{
+			url "https://docker.vintec.mx/nexus/repository/libs-release/"
+		}
+		maven{
+			url "https://docker.vintec.mx/nexus/repository/libs-snapshot/"
+		}
+		gradlePluginPortal()
+	}
+}
 
-apply from: 'includes.gradle'
+rootProject.name = "mv_libs_common"
+rootProject.buildFileName='common.gradle'

@@ -1,4 +1,4 @@
-
+.attach*
 **/pg_data/
 **/bin/
 **/build/
@@ -148,3 +148,4 @@ gradle-app.setting
 # End of https://www.gitignore.io/api/grails,gradle,ansible,java,node
 
 .~lock*
+.factorypath
