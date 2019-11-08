@@ -5,9 +5,7 @@ plugins{
 group = "com.vintecdyne.libs"
 version = '1.0-SNAPSHOT'
 
-mvCompile{
 
-}
 config {
 	info {
 		name        = 'Vintedyne Java Base'
