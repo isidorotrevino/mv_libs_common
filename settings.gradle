@@ -1,10 +1,10 @@
 pluginManagement {
 	repositories {
 		maven{
-			url "https://docker.vintec.mx/nexus/repository/libs-release/"
+			url "https://nexus.wintermute.network/nexus/repository/libs-release/"
 		}
 		maven{
-			url "https://docker.vintec.mx/nexus/repository/libs-snapshot/"
+			url "https://nexus.wintermute.network/nexus/repository/libs-snapshot/"
 		}
 		gradlePluginPortal()
 	}
