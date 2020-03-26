@@ -37,7 +37,7 @@ import java.util.List;
  * with the JVM names, such as {@code [I}.
  * </p>
  *
- * @since 2.0
+ * @since 2.0 
  */
 public class ClassUtils {
 

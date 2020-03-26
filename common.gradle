@@ -1,29 +1,29 @@
 plugins{
-	id 'com.vintecdyne.plugins.vintecdyne-gradle-java-base' version '0.1-SNAPSHOT'
+	id 'com.wintermute.plugins.wintermute-gradle-java-base' version '0.1-SNAPSHOT'
 }
 
 group = "com.vintecdyne.libs"
 version = '1.0-SNAPSHOT'
 
 
-config {
-	info {
-		name        = 'Vintedyne Java Base'
-		vendor      = 'VintecDyne'
-		description = 'Arquitectura Vintecdyne'
-		tags 		= ['vintecdyne']
-		organization{
-			name = 'Vintecdyne'
-			url = ''
-		}
-		links {
-			website      = 'https://github.com/isidorotrevino/mv_libs_common'
-			issueTracker = 'https://github.com/isidorotrevino/mv_libs_common/issues'
-			scm          = 'https://github.com/isidorotrevino/mv_libs_common.git'
-		}
-		
-	}
-	licensing {
-		enabled = false
-	}
-}
+//config {
+//	info {
+//		name        = 'Vintedyne Java Base'
+//		vendor      = 'VintecDyne'
+//		description = 'Arquitectura Vintecdyne'
+//		tags 		= ['vintecdyne']
+//		organization{
+//			name = 'Vintecdyne'
+//			url = ''
+//		}
+//		links {
+//			website      = 'https://github.com/isidorotrevino/mv_libs_common'
+//			issueTracker = 'https://github.com/isidorotrevino/mv_libs_common/issues'
+//			scm          = 'https://github.com/isidorotrevino/mv_libs_common.git'
+//		}
+//		
+//	}
+//	licensing {
+//		enabled = false
+//	}
+//}
